@@ -9,7 +9,7 @@ import UIKit
 
 class DataListViewController: UITableViewController {
     
-    var Persons = [Person]()
+    var Persons = [person]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,16 +25,16 @@ class DataListViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Name", for: indexPath)
-        let Person = Persons[indexPath.row]
-        cell.textLabel?.text = Person.name
-        cell.detailTextLabel?.text = Person.lastName
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PersonNameCell", for: indexPath)
+        let person = Persons[indexPath.row]
+         cell.textLabel?.text = person.name
+         cell.detailTextLabel?.text = person.lastName
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = storyboard?.instantiateViewController(withIdentifier: "PersonData") as? PersonalDataViewController {
-            vc.userData = Persons[indexPath.row].name
+            vc.userData = Persons[indexPath.row]
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

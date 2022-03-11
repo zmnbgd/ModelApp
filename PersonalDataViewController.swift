@@ -11,14 +11,13 @@ class PersonalDataViewController: UIViewController {
     
     @IBOutlet var personData: UILabel!
     
-    var userData: String!
+    var userData: person!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        personData.text = userData
 
+        personData.text = userData.name
     }
     
     
