@@ -7,20 +7,6 @@
 
 import Foundation
 
-//struct Person {
-//    let name: String
-//    let lastName: String
-//    var age: Int
-//    let gender: Gender
-//}
-//
-//enum Gender {
-//    case Male
-//    case Female
-//}
-
-//let Minja = Person(name: "Minja", lastName: "Zivanovic", age: 5, gender: .Male)
-//let Marko = Person(name: "Marko", lastName: "Zivanovic", age: 41, gender: .Male)
 
 class Person {
     let name: String
