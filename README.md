@@ -1,4 +1,4 @@
-ModalApp showing MVC model, TableView Controller, installation and use Cocoapods, and WebView
+ModelApp showing MVC model, TableView Controller, installation and use Cocoapods, and WebView
 ![Simulator Screen Shot - iPhone 13 Pro Max - 2022-03-27 at 11 41 56](https://user-images.githubusercontent.com/32281586/160275880-c1737621-8d09-4f90-b22f-4fe0504bc87e.png)
 ![Simulator Screen Shot - iPhone 13 Pro Max - 2022-03-27 at 11 42 06](https://user-images.githubusercontent.com/32281586/160275889-c67d291d-54a8-49a4-b41b-6ba33333db49.png)
 ![Simulator Screen Shot - iPhone 13 Pro Max - 2022-03-27 at 11 42 13](https://user-images.githubusercontent.com/32281586/160275892-9e9e7492-b4c2-4eba-9e93-7bd2b796640f.png)
